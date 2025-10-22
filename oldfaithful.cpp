@@ -38,7 +38,7 @@ int main() {
         count++;
     }
 
-    file.close();
+    file.close(); // We got everything from the file and now we will close it
 
     double avgEruption = totalEruption / count;
     double avgWait = totalWait / count;
